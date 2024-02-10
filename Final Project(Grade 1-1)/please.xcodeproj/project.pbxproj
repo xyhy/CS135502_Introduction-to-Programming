@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC511EBB23CB8ED100FB62DB /* help_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EB423CB8ED100FB62DB /* help_background.jpg */; };
+		AC511EBC23CB8ED100FB62DB /* bullet-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EB523CB8ED100FB62DB /* bullet-2.jpg */; };
+		AC511EBD23CB8ED100FB62DB /* bullect-4-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EB623CB8ED100FB62DB /* bullect-4-2.jpg */; };
+		AC511EBE23CB8ED100FB62DB /* boss-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EB723CB8ED100FB62DB /* boss-1.jpg */; };
+		AC511EBF23CB8ED100FB62DB /* help1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EB823CB8ED100FB62DB /* help1.jpg */; };
+		AC511EC023CB8ED100FB62DB /* help2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EB923CB8ED100FB62DB /* help2.jpg */; };
+		AC511EC123CB8ED100FB62DB /* boss_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EBA23CB8ED100FB62DB /* boss_background.jpg */; };
+		AC511ECC23CB8F1500FB62DB /* settings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC223CB8F1400FB62DB /* settings.jpg */; };
+		AC511ECD23CB8F1500FB62DB /* plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC323CB8F1400FB62DB /* plane.jpg */; };
+		AC511ECE23CB8F1500FB62DB /* Xi_Jinping_2019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC423CB8F1400FB62DB /* Xi_Jinping_2019.jpg */; };
+		AC511ECF23CB8F1500FB62DB /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC523CB8F1400FB62DB /* Unknown.jpg */; };
+		AC511ED023CB8F1500FB62DB /* settings2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC623CB8F1500FB62DB /* settings2.jpg */; };
+		AC511ED223CB8F1500FB62DB /* smallfighter0006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC823CB8F1500FB62DB /* smallfighter0006.jpg */; };
+		AC511ED323CB8F1500FB62DB /* start2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EC923CB8F1500FB62DB /* start2.jpg */; };
+		AC511ED423CB8F1500FB62DB /* start1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511ECA23CB8F1500FB62DB /* start1.jpg */; };
+		AC511ED523CB8F1500FB62DB /* tank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511ECB23CB8F1500FB62DB /* tank.jpg */; };
+		AC511ED923CBAD8B00FB62DB /* wennie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511ED823CBAD8B00FB62DB /* wennie.jpg */; };
+		AC511EDB23CBB33C00FB62DB /* xi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EDA23CBB33C00FB62DB /* xi.jpg */; };
+		AC511EE423CBC76600FB62DB /* big_wennie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EE323CBC76600FB62DB /* big_wennie.jpg */; };
+		AC511EE623CBF70300FB62DB /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EE523CBF70300FB62DB /* grass.jpg */; };
+		AC511EE823CBFB6F00FB62DB /* universe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EE723CBFB6E00FB62DB /* universe.jpg */; };
+		AC511EF323CC04F300FB62DB /* 3-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EE923CC04F300FB62DB /* 3-3.jpg */; };
+		AC511EF423CC04F300FB62DB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EEA23CC04F300FB62DB /* 2.jpg */; };
+		AC511EF523CC04F300FB62DB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EEB23CC04F300FB62DB /* 3.jpg */; };
+		AC511EF623CC04F300FB62DB /* 4-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EEC23CC04F300FB62DB /* 4-4.jpg */; };
+		AC511EF723CC04F300FB62DB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EED23CC04F300FB62DB /* 4.jpg */; };
+		AC511EF823CC04F300FB62DB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EEE23CC04F300FB62DB /* 5.jpg */; };
+		AC511EF923CC04F300FB62DB /* 5-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EEF23CC04F300FB62DB /* 5-5.jpg */; };
+		AC511EFA23CC04F300FB62DB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EF023CC04F300FB62DB /* 1.jpg */; };
+		AC511EFB23CC04F300FB62DB /* 2-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EF123CC04F300FB62DB /* 2-2.jpg */; };
+		AC511EFC23CC04F300FB62DB /* 1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC511EF223CC04F300FB62DB /* 1-1.jpg */; };
+		AC9C7FBA23CB87E4009EF1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FB923CB87E4009EF1D8 /* Assets.xcassets */; };
+		AC9C7FBD23CB87E4009EF1D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FBB23CB87E4009EF1D8 /* MainMenu.xib */; };
+		AC9C7FC823CB88BA009EF1D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC9C7FC723CB88BA009EF1D8 /* main.c */; };
+		AC9C800C23CB8A81009EF1D8 /* mythica.ogg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FF123CB8A80009EF1D8 /* mythica.ogg */; };
+		AC9C800D23CB8A81009EF1D8 /* sign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FF223CB8A80009EF1D8 /* sign.jpg */; };
+		AC9C800E23CB8A81009EF1D8 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FF323CB8A80009EF1D8 /* background.jpg */; };
+		AC9C800F23CB8A81009EF1D8 /* S31-Night Prowler.ogg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FF423CB8A80009EF1D8 /* S31-Night Prowler.ogg */; };
+		AC9C801323CB8A81009EF1D8 /* screen-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FF823CB8A80009EF1D8 /* screen-5.jpg */; };
+		AC9C801523CB8A81009EF1D8 /* black_color.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FFA23CB8A80009EF1D8 /* black_color.jpeg */; };
+		AC9C801623CB8A81009EF1D8 /* skill_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FFB23CB8A80009EF1D8 /* skill_background.jpg */; };
+		AC9C801823CB8A81009EF1D8 /* pirulen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FFD23CB8A80009EF1D8 /* pirulen.ttf */; };
+		AC9C801923CB8A81009EF1D8 /* start_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C7FFE23CB8A81009EF1D8 /* start_photo.jpg */; };
+		AC9C802023CB8A81009EF1D8 /* skill_bullet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9C800523CB8A81009EF1D8 /* skill_bullet.jpg */; };
+		AC9C803523CB8CAE009EF1D8 /* liballegro_acodec.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802823CB8CAE009EF1D8 /* liballegro_acodec.5.2.5.dylib */; };
+		AC9C803623CB8CAE009EF1D8 /* liballegro_primitives.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802923CB8CAE009EF1D8 /* liballegro_primitives.5.2.5.dylib */; };
+		AC9C803723CB8CAE009EF1D8 /* liballegro_font.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802A23CB8CAE009EF1D8 /* liballegro_font.5.2.5.dylib */; };
+		AC9C803823CB8CAE009EF1D8 /* liballegro_color.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802B23CB8CAE009EF1D8 /* liballegro_color.5.2.5.dylib */; };
+		AC9C803923CB8CAE009EF1D8 /* liballegro.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802C23CB8CAE009EF1D8 /* liballegro.5.2.5.dylib */; };
+		AC9C803A23CB8CAE009EF1D8 /* liballegro_audio.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802D23CB8CAE009EF1D8 /* liballegro_audio.5.2.5.dylib */; };
+		AC9C803B23CB8CAE009EF1D8 /* liballegro_main.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802E23CB8CAE009EF1D8 /* liballegro_main.5.2.5.dylib */; };
+		AC9C803C23CB8CAE009EF1D8 /* liballegro_physfs.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C802F23CB8CAE009EF1D8 /* liballegro_physfs.5.2.5.dylib */; };
+		AC9C803D23CB8CAE009EF1D8 /* liballegro_dialog.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C803023CB8CAE009EF1D8 /* liballegro_dialog.5.2.5.dylib */; };
+		AC9C803E23CB8CAE009EF1D8 /* liballegro_video.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C803123CB8CAE009EF1D8 /* liballegro_video.5.2.5.dylib */; };
+		AC9C803F23CB8CAE009EF1D8 /* liballegro_ttf.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C803223CB8CAE009EF1D8 /* liballegro_ttf.5.2.5.dylib */; };
+		AC9C804023CB8CAE009EF1D8 /* liballegro_memfile.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C803323CB8CAE009EF1D8 /* liballegro_memfile.5.2.5.dylib */; };
+		AC9C804123CB8CAE009EF1D8 /* liballegro_image.5.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C803423CB8CAE009EF1D8 /* liballegro_image.5.2.5.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC511EB423CB8ED100FB62DB /* help_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = help_background.jpg; path = things/help_background.jpg; sourceTree = "<group>"; };
+		AC511EB523CB8ED100FB62DB /* bullet-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bullet-2.jpg"; path = "things/bullet-2.jpg"; sourceTree = "<group>"; };
+		AC511EB623CB8ED100FB62DB /* bullect-4-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bullect-4-2.jpg"; path = "things/bullect-4-2.jpg"; sourceTree = "<group>"; };
+		AC511EB723CB8ED100FB62DB /* boss-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "boss-1.jpg"; path = "things/boss-1.jpg"; sourceTree = "<group>"; };
+		AC511EB823CB8ED100FB62DB /* help1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = help1.jpg; path = things/help1.jpg; sourceTree = "<group>"; };
+		AC511EB923CB8ED100FB62DB /* help2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = help2.jpg; path = things/help2.jpg; sourceTree = "<group>"; };
+		AC511EBA23CB8ED100FB62DB /* boss_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = boss_background.jpg; path = things/boss_background.jpg; sourceTree = "<group>"; };
+		AC511EC223CB8F1400FB62DB /* settings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = settings.jpg; path = things/settings.jpg; sourceTree = "<group>"; };
+		AC511EC323CB8F1400FB62DB /* plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plane.jpg; path = things/plane.jpg; sourceTree = "<group>"; };
+		AC511EC423CB8F1400FB62DB /* Xi_Jinping_2019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Xi_Jinping_2019.jpg; path = things/Xi_Jinping_2019.jpg; sourceTree = "<group>"; };
+		AC511EC523CB8F1400FB62DB /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpg; path = things/Unknown.jpg; sourceTree = "<group>"; };
+		AC511EC623CB8F1500FB62DB /* settings2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = settings2.jpg; path = things/settings2.jpg; sourceTree = "<group>"; };
+		AC511EC823CB8F1500FB62DB /* smallfighter0006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = smallfighter0006.jpg; path = things/smallfighter0006.jpg; sourceTree = "<group>"; };
+		AC511EC923CB8F1500FB62DB /* start2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = start2.jpg; path = things/start2.jpg; sourceTree = "<group>"; };
+		AC511ECA23CB8F1500FB62DB /* start1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = start1.jpg; path = things/start1.jpg; sourceTree = "<group>"; };
+		AC511ECB23CB8F1500FB62DB /* tank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tank.jpg; path = things/tank.jpg; sourceTree = "<group>"; };
+		AC511ED823CBAD8B00FB62DB /* wennie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wennie.jpg; path = things/wennie.jpg; sourceTree = "<group>"; };
+		AC511EDA23CBB33C00FB62DB /* xi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xi.jpg; path = things/xi.jpg; sourceTree = "<group>"; };
+		AC511EDC23CBB61B00FB62DB /* life-1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "life-1.ogg"; path = "things/life-1.ogg"; sourceTree = "<group>"; };
+		AC511EDD23CBB61B00FB62DB /* life-0.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "life-0.ogg"; path = "things/life-0.ogg"; sourceTree = "<group>"; };
+		AC511EDE23CBB61B00FB62DB /* attack.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = attack.ogg; path = things/attack.ogg; sourceTree = "<group>"; };
+		AC511EDF23CBB61B00FB62DB /* choose.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = choose.ogg; path = things/choose.ogg; sourceTree = "<group>"; };
+		AC511EE023CBBD4900FB62DB /* boss_song.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = boss_song.ogg; path = things/boss_song.ogg; sourceTree = "<group>"; };
+		AC511EE223CBC14500FB62DB /* stage_1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = stage_1.ogg; path = things/stage_1.ogg; sourceTree = "<group>"; };
+		AC511EE323CBC76600FB62DB /* big_wennie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = big_wennie.jpg; path = things/big_wennie.jpg; sourceTree = "<group>"; };
+		AC511EE523CBF70300FB62DB /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grass.jpg; path = things/grass.jpg; sourceTree = "<group>"; };
+		AC511EE723CBFB6E00FB62DB /* universe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = universe.jpg; path = things/universe.jpg; sourceTree = "<group>"; };
+		AC511EE923CC04F300FB62DB /* 3-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3-3.jpg"; path = "things/3-3.jpg"; sourceTree = "<group>"; };
+		AC511EEA23CC04F300FB62DB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = things/2.jpg; sourceTree = "<group>"; };
+		AC511EEB23CC04F300FB62DB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = things/3.jpg; sourceTree = "<group>"; };
+		AC511EEC23CC04F300FB62DB /* 4-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4-4.jpg"; path = "things/4-4.jpg"; sourceTree = "<group>"; };
+		AC511EED23CC04F300FB62DB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = things/4.jpg; sourceTree = "<group>"; };
+		AC511EEE23CC04F300FB62DB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = things/5.jpg; sourceTree = "<group>"; };
+		AC511EEF23CC04F300FB62DB /* 5-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "5-5.jpg"; path = "things/5-5.jpg"; sourceTree = "<group>"; };
+		AC511EF023CC04F300FB62DB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = things/1.jpg; sourceTree = "<group>"; };
+		AC511EF123CC04F300FB62DB /* 2-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "2-2.jpg"; path = "things/2-2.jpg"; sourceTree = "<group>"; };
+		AC511EF223CC04F300FB62DB /* 1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1-1.jpg"; path = "things/1-1.jpg"; sourceTree = "<group>"; };
+		AC9C7FB323CB87E1009EF1D8 /* please.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = please.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9C7FB923CB87E4009EF1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9C7FBC23CB87E4009EF1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC9C7FBE23CB87E4009EF1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9C7FC123CB87E4009EF1D8 /* please.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = please.entitlements; sourceTree = "<group>"; };
+		AC9C7FC723CB88BA009EF1D8 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AC9C7FF123CB8A80009EF1D8 /* mythica.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = mythica.ogg; path = things/mythica.ogg; sourceTree = "<group>"; };
+		AC9C7FF223CB8A80009EF1D8 /* sign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sign.jpg; path = things/sign.jpg; sourceTree = "<group>"; };
+		AC9C7FF323CB8A80009EF1D8 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = things/background.jpg; sourceTree = "<group>"; };
+		AC9C7FF423CB8A80009EF1D8 /* S31-Night Prowler.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "S31-Night Prowler.ogg"; path = "things/S31-Night Prowler.ogg"; sourceTree = "<group>"; };
+		AC9C7FF823CB8A80009EF1D8 /* screen-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "screen-5.jpg"; path = "things/screen-5.jpg"; sourceTree = "<group>"; };
+		AC9C7FFA23CB8A80009EF1D8 /* black_color.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black_color.jpeg; path = things/black_color.jpeg; sourceTree = "<group>"; };
+		AC9C7FFB23CB8A80009EF1D8 /* skill_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skill_background.jpg; path = things/skill_background.jpg; sourceTree = "<group>"; };
+		AC9C7FFD23CB8A80009EF1D8 /* pirulen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pirulen.ttf; path = things/pirulen.ttf; sourceTree = "<group>"; };
+		AC9C7FFE23CB8A81009EF1D8 /* start_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = start_photo.jpg; path = things/start_photo.jpg; sourceTree = "<group>"; };
+		AC9C800523CB8A81009EF1D8 /* skill_bullet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = skill_bullet.jpg; path = things/skill_bullet.jpg; sourceTree = "<group>"; };
+		AC9C802823CB8CAE009EF1D8 /* liballegro_acodec.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_acodec.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_acodec.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802923CB8CAE009EF1D8 /* liballegro_primitives.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_primitives.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_primitives.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802A23CB8CAE009EF1D8 /* liballegro_font.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_font.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_font.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802B23CB8CAE009EF1D8 /* liballegro_color.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_color.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_color.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802C23CB8CAE009EF1D8 /* liballegro.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802D23CB8CAE009EF1D8 /* liballegro_audio.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_audio.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_audio.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802E23CB8CAE009EF1D8 /* liballegro_main.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_main.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_main.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C802F23CB8CAE009EF1D8 /* liballegro_physfs.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_physfs.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_physfs.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C803023CB8CAE009EF1D8 /* liballegro_dialog.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_dialog.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_dialog.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C803123CB8CAE009EF1D8 /* liballegro_video.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_video.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_video.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C803223CB8CAE009EF1D8 /* liballegro_ttf.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_ttf.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_ttf.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C803323CB8CAE009EF1D8 /* liballegro_memfile.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_memfile.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_memfile.5.2.5.dylib; sourceTree = "<group>"; };
+		AC9C803423CB8CAE009EF1D8 /* liballegro_image.5.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_image.5.2.5.dylib; path = ../../../../usr/local/Cellar/allegro/5.2.5.0/lib/liballegro_image.5.2.5.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9C7FB023CB87E1009EF1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C803523CB8CAE009EF1D8 /* liballegro_acodec.5.2.5.dylib in Frameworks */,
+				AC9C803623CB8CAE009EF1D8 /* liballegro_primitives.5.2.5.dylib in Frameworks */,
+				AC9C803723CB8CAE009EF1D8 /* liballegro_font.5.2.5.dylib in Frameworks */,
+				AC9C803823CB8CAE009EF1D8 /* liballegro_color.5.2.5.dylib in Frameworks */,
+				AC9C803923CB8CAE009EF1D8 /* liballegro.5.2.5.dylib in Frameworks */,
+				AC9C803A23CB8CAE009EF1D8 /* liballegro_audio.5.2.5.dylib in Frameworks */,
+				AC9C803B23CB8CAE009EF1D8 /* liballegro_main.5.2.5.dylib in Frameworks */,
+				AC9C803C23CB8CAE009EF1D8 /* liballegro_physfs.5.2.5.dylib in Frameworks */,
+				AC9C803D23CB8CAE009EF1D8 /* liballegro_dialog.5.2.5.dylib in Frameworks */,
+				AC9C803E23CB8CAE009EF1D8 /* liballegro_video.5.2.5.dylib in Frameworks */,
+				AC9C803F23CB8CAE009EF1D8 /* liballegro_ttf.5.2.5.dylib in Frameworks */,
+				AC9C804023CB8CAE009EF1D8 /* liballegro_memfile.5.2.5.dylib in Frameworks */,
+				AC9C804123CB8CAE009EF1D8 /* liballegro_image.5.2.5.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9C7FAA23CB87E1009EF1D8 = {
+			isa = PBXGroup;
+			children = (
+				AC9C7FC723CB88BA009EF1D8 /* main.c */,
+				AC511EF223CC04F300FB62DB /* 1-1.jpg */,
+				AC511EF023CC04F300FB62DB /* 1.jpg */,
+				AC511EF123CC04F300FB62DB /* 2-2.jpg */,
+				AC511EEA23CC04F300FB62DB /* 2.jpg */,
+				AC511EE923CC04F300FB62DB /* 3-3.jpg */,
+				AC511EEB23CC04F300FB62DB /* 3.jpg */,
+				AC511EEC23CC04F300FB62DB /* 4-4.jpg */,
+				AC511EED23CC04F300FB62DB /* 4.jpg */,
+				AC511EEF23CC04F300FB62DB /* 5-5.jpg */,
+				AC511EEE23CC04F300FB62DB /* 5.jpg */,
+				AC511EE223CBC14500FB62DB /* stage_1.ogg */,
+				AC9C7FF323CB8A80009EF1D8 /* background.jpg */,
+				AC9C7FFA23CB8A80009EF1D8 /* black_color.jpeg */,
+				AC511EBA23CB8ED100FB62DB /* boss_background.jpg */,
+				AC511EB723CB8ED100FB62DB /* boss-1.jpg */,
+				AC511EB623CB8ED100FB62DB /* bullect-4-2.jpg */,
+				AC511EB523CB8ED100FB62DB /* bullet-2.jpg */,
+				AC511EE323CBC76600FB62DB /* big_wennie.jpg */,
+				AC511EB423CB8ED100FB62DB /* help_background.jpg */,
+				AC511EB823CB8ED100FB62DB /* help1.jpg */,
+				AC511EE523CBF70300FB62DB /* grass.jpg */,
+				AC511EDE23CBB61B00FB62DB /* attack.ogg */,
+				AC511EDF23CBB61B00FB62DB /* choose.ogg */,
+				AC511EDD23CBB61B00FB62DB /* life-0.ogg */,
+				AC511EDC23CBB61B00FB62DB /* life-1.ogg */,
+				AC511EB923CB8ED100FB62DB /* help2.jpg */,
+				AC511EC323CB8F1400FB62DB /* plane.jpg */,
+				AC511EC223CB8F1400FB62DB /* settings.jpg */,
+				AC511EE723CBFB6E00FB62DB /* universe.jpg */,
+				AC511EC623CB8F1500FB62DB /* settings2.jpg */,
+				AC511EC823CB8F1500FB62DB /* smallfighter0006.jpg */,
+				AC511ECA23CB8F1500FB62DB /* start1.jpg */,
+				AC511ED823CBAD8B00FB62DB /* wennie.jpg */,
+				AC511EC923CB8F1500FB62DB /* start2.jpg */,
+				AC511ECB23CB8F1500FB62DB /* tank.jpg */,
+				AC511EDA23CBB33C00FB62DB /* xi.jpg */,
+				AC511EC523CB8F1400FB62DB /* Unknown.jpg */,
+				AC511EE023CBBD4900FB62DB /* boss_song.ogg */,
+				AC511EC423CB8F1400FB62DB /* Xi_Jinping_2019.jpg */,
+				AC9C7FF123CB8A80009EF1D8 /* mythica.ogg */,
+				AC9C7FFD23CB8A80009EF1D8 /* pirulen.ttf */,
+				AC9C7FF423CB8A80009EF1D8 /* S31-Night Prowler.ogg */,
+				AC9C7FF823CB8A80009EF1D8 /* screen-5.jpg */,
+				AC9C7FF223CB8A80009EF1D8 /* sign.jpg */,
+				AC9C7FFB23CB8A80009EF1D8 /* skill_background.jpg */,
+				AC9C800523CB8A81009EF1D8 /* skill_bullet.jpg */,
+				AC9C7FFE23CB8A81009EF1D8 /* start_photo.jpg */,
+				AC9C7FB523CB87E1009EF1D8 /* please */,
+				AC9C7FB423CB87E1009EF1D8 /* Products */,
+				AC9C802723CB8CAE009EF1D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9C7FB423CB87E1009EF1D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C7FB323CB87E1009EF1D8 /* please.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9C7FB523CB87E1009EF1D8 /* please */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C7FB923CB87E4009EF1D8 /* Assets.xcassets */,
+				AC9C7FBB23CB87E4009EF1D8 /* MainMenu.xib */,
+				AC9C7FBE23CB87E4009EF1D8 /* Info.plist */,
+				AC9C7FC123CB87E4009EF1D8 /* please.entitlements */,
+			);
+			path = please;
+			sourceTree = "<group>";
+		};
+		AC9C802723CB8CAE009EF1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C802823CB8CAE009EF1D8 /* liballegro_acodec.5.2.5.dylib */,
+				AC9C802D23CB8CAE009EF1D8 /* liballegro_audio.5.2.5.dylib */,
+				AC9C802B23CB8CAE009EF1D8 /* liballegro_color.5.2.5.dylib */,
+				AC9C803023CB8CAE009EF1D8 /* liballegro_dialog.5.2.5.dylib */,
+				AC9C802A23CB8CAE009EF1D8 /* liballegro_font.5.2.5.dylib */,
+				AC9C803423CB8CAE009EF1D8 /* liballegro_image.5.2.5.dylib */,
+				AC9C802E23CB8CAE009EF1D8 /* liballegro_main.5.2.5.dylib */,
+				AC9C803323CB8CAE009EF1D8 /* liballegro_memfile.5.2.5.dylib */,
+				AC9C802F23CB8CAE009EF1D8 /* liballegro_physfs.5.2.5.dylib */,
+				AC9C802923CB8CAE009EF1D8 /* liballegro_primitives.5.2.5.dylib */,
+				AC9C803223CB8CAE009EF1D8 /* liballegro_ttf.5.2.5.dylib */,
+				AC9C803123CB8CAE009EF1D8 /* liballegro_video.5.2.5.dylib */,
+				AC9C802C23CB8CAE009EF1D8 /* liballegro.5.2.5.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9C7FB223CB87E1009EF1D8 /* please */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9C7FC423CB87E4009EF1D8 /* Build configuration list for PBXNativeTarget "please" */;
+			buildPhases = (
+				AC9C7FAF23CB87E1009EF1D8 /* Sources */,
+				AC9C7FB023CB87E1009EF1D8 /* Frameworks */,
+				AC9C7FB123CB87E1009EF1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = please;
+			productName = please;
+			productReference = AC9C7FB323CB87E1009EF1D8 /* please.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9C7FAB23CB87E1009EF1D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "顏浩昀";
+				TargetAttributes = {
+					AC9C7FB223CB87E1009EF1D8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AC9C7FAE23CB87E1009EF1D8 /* Build configuration list for PBXProject "please" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9C7FAA23CB87E1009EF1D8;
+			productRefGroup = AC9C7FB423CB87E1009EF1D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9C7FB223CB87E1009EF1D8 /* please */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9C7FB123CB87E1009EF1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC511EFC23CC04F300FB62DB /* 1-1.jpg in Resources */,
+				AC511EDB23CBB33C00FB62DB /* xi.jpg in Resources */,
+				AC511EBF23CB8ED100FB62DB /* help1.jpg in Resources */,
+				AC511EF423CC04F300FB62DB /* 2.jpg in Resources */,
+				AC511EBB23CB8ED100FB62DB /* help_background.jpg in Resources */,
+				AC9C800D23CB8A81009EF1D8 /* sign.jpg in Resources */,
+				AC511EE823CBFB6F00FB62DB /* universe.jpg in Resources */,
+				AC511EF723CC04F300FB62DB /* 4.jpg in Resources */,
+				AC511ED923CBAD8B00FB62DB /* wennie.jpg in Resources */,
+				AC9C801623CB8A81009EF1D8 /* skill_background.jpg in Resources */,
+				AC511EFB23CC04F300FB62DB /* 2-2.jpg in Resources */,
+				AC511EF323CC04F300FB62DB /* 3-3.jpg in Resources */,
+				AC511EFA23CC04F300FB62DB /* 1.jpg in Resources */,
+				AC9C800E23CB8A81009EF1D8 /* background.jpg in Resources */,
+				AC511ED523CB8F1500FB62DB /* tank.jpg in Resources */,
+				AC511ED423CB8F1500FB62DB /* start1.jpg in Resources */,
+				AC511EBD23CB8ED100FB62DB /* bullect-4-2.jpg in Resources */,
+				AC511EBE23CB8ED100FB62DB /* boss-1.jpg in Resources */,
+				AC511ED023CB8F1500FB62DB /* settings2.jpg in Resources */,
+				AC9C7FBA23CB87E4009EF1D8 /* Assets.xcassets in Resources */,
+				AC511EF623CC04F300FB62DB /* 4-4.jpg in Resources */,
+				AC9C801923CB8A81009EF1D8 /* start_photo.jpg in Resources */,
+				AC511EC123CB8ED100FB62DB /* boss_background.jpg in Resources */,
+				AC511ED223CB8F1500FB62DB /* smallfighter0006.jpg in Resources */,
+				AC511EF923CC04F300FB62DB /* 5-5.jpg in Resources */,
+				AC9C802023CB8A81009EF1D8 /* skill_bullet.jpg in Resources */,
+				AC9C800C23CB8A81009EF1D8 /* mythica.ogg in Resources */,
+				AC9C7FBD23CB87E4009EF1D8 /* MainMenu.xib in Resources */,
+				AC9C801823CB8A81009EF1D8 /* pirulen.ttf in Resources */,
+				AC511ED323CB8F1500FB62DB /* start2.jpg in Resources */,
+				AC9C801323CB8A81009EF1D8 /* screen-5.jpg in Resources */,
+				AC511EE423CBC76600FB62DB /* big_wennie.jpg in Resources */,
+				AC511EC023CB8ED100FB62DB /* help2.jpg in Resources */,
+				AC511EF523CC04F300FB62DB /* 3.jpg in Resources */,
+				AC511EE623CBF70300FB62DB /* grass.jpg in Resources */,
+				AC511ECF23CB8F1500FB62DB /* Unknown.jpg in Resources */,
+				AC511ECE23CB8F1500FB62DB /* Xi_Jinping_2019.jpg in Resources */,
+				AC511EF823CC04F300FB62DB /* 5.jpg in Resources */,
+				AC9C800F23CB8A81009EF1D8 /* S31-Night Prowler.ogg in Resources */,
+				AC511ECD23CB8F1500FB62DB /* plane.jpg in Resources */,
+				AC511ECC23CB8F1500FB62DB /* settings.jpg in Resources */,
+				AC511EBC23CB8ED100FB62DB /* bullet-2.jpg in Resources */,
+				AC9C801523CB8A81009EF1D8 /* black_color.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9C7FAF23CB87E1009EF1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C7FC823CB88BA009EF1D8 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9C7FBB23CB87E4009EF1D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9C7FBC23CB87E4009EF1D8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9C7FC223CB87E4009EF1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC9C7FC323CB87E4009EF1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC9C7FC523CB87E4009EF1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = please/please.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63T9VY5M3M;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = please/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/allegro/5.2.5.0/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "---.please";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9C7FC623CB87E4009EF1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = please/please.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63T9VY5M3M;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = please/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/allegro/5.2.5.0/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "---.please";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9C7FAE23CB87E1009EF1D8 /* Build configuration list for PBXProject "please" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C7FC223CB87E4009EF1D8 /* Debug */,
+				AC9C7FC323CB87E4009EF1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9C7FC423CB87E4009EF1D8 /* Build configuration list for PBXNativeTarget "please" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C7FC523CB87E4009EF1D8 /* Debug */,
+				AC9C7FC623CB87E4009EF1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9C7FAB23CB87E1009EF1D8 /* Project object */;
+}
